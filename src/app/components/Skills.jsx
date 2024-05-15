@@ -2,6 +2,7 @@ const Skills = () => {
   return (
     <div className="skills-container">
         <h2>Skills</h2>
+        {/* TODO: Can refactor this and use map() to render individual div elements for respective skills */}
         <div className="grid-skills">
             <div className="skill-card python">
                 <i className="fa-brands fa-python python-icon"></i>
