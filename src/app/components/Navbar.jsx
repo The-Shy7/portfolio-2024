@@ -8,7 +8,7 @@ const Navbar = () => {
                 Tahmin&apos;s Portfolio
             </Link>
         </div>
-        <a href="" className="cta-btn">Resume</a>
+        <a href="https://tahmin-talukder-resume.vercel.app/" className="cta-btn">Resume</a>
     </div>
   );
 }
