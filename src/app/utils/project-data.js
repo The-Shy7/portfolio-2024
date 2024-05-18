@@ -18,7 +18,7 @@ export const projectData = [
     paragraphTwo:
       'Python (through Jupyter Notebook) was used to scrape data hosted by the United States government on an FTP server. The Pandas and NumPy libraries were utilized to clean, filter, and feature engineer the data.',
     paragraphThree:
-      'Lastly, the Matplotlib and Seaborn libraries were used to construct and generate the statstical graphics and data visualizations present within the final analysis report.',
+      'Lastly, the Matplotlib and Seaborn libraries were used to construct and generate the statistical graphics and data visualizations present within the final analysis report.',
     gitHubLink: 'https://github.com/The-Shy7/math-381-predicting-miscarriage',
   },
   {
