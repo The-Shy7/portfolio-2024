@@ -1,14 +1,14 @@
 export const projectData = [
   {
     id: 1,
-    title: 'Pokedex App',
+    title: 'Terraform AWS Networking Module',
     paragraphOne:
-      'A web app built using React, data from a RESTful API, and deployed through Vercel that visually displays all Pokemon (generations 1-7) where users can filter and view details of specific Pokemon for individual stats and abilities.',
-    paragraphTwo: 
-      '',
-    paragraphThree: 
-      '',
-    gitHubLink: 'https://github.com/The-Shy7/smogondb',
+      'A Terraform module that simplifies the creation and management of VPCs and subnets within an AWS environment.',
+    paragraphTwo:
+      'It automates the provisioning of necessary network resources, including CIDR block allocation and subnet configurations, ensuring consistent and reproducible setups.',
+    paragraphThree:
+      'The module is published on the Terraform Registry, making it easily accessible and reusable for developers seeking to streamline their infrastructure deployment in AWS.',
+    gitHubLink: 'https://github.com/The-Shy7/terraform-aws-networking-simple',
   },
   {
     id: 2,
@@ -56,14 +56,14 @@ export const projectData = [
   },
   {
     id: 6,
-    title: 'Developer Portfolio Website',
+    title: 'Pokedex App',
     paragraphOne:
-      'My current developer portfolio built using Next.js and deployed through Vercel.',
+      'A web app built using React, data from a RESTful API, and deployed through Vercel that visually displays all Pokemon (generations 1-7) where users can filter and view details of specific Pokemon for individual stats and abilities.',
     paragraphTwo: 
       '',
     paragraphThree: 
       '',
-    gitHubLink: 'https://github.com/The-Shy7/portfolio-2024',
+    gitHubLink: 'https://github.com/The-Shy7/smogondb',
   },
   {
     id: 7,
@@ -75,5 +75,16 @@ export const projectData = [
     paragraphThree:
       '',
     gitHubLink: 'https://github.com/The-Shy7/simple-text-editor',
+  },
+  {
+    id: 8,
+    title: 'Developer Portfolio Website',
+    paragraphOne:
+      'My current developer portfolio built using Next.js and deployed through Vercel.',
+    paragraphTwo: 
+      '',
+    paragraphThree: 
+      '',
+    gitHubLink: 'https://github.com/The-Shy7/portfolio-2024',
   },
 ];
