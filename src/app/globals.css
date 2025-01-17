@@ -268,6 +268,10 @@ hr {
   font-size: 1.5rem;
 }
 
+.icon {
+  font-size: 1.5rem;
+}
+
 .skills-container .grid-skills .python:hover {
   background-color: #3776AB;
 }
@@ -285,7 +289,7 @@ hr {
 }
 
 .skills-container .grid-skills .sql:hover {
-  background-color: #DC7937;
+  background-color: #D71F00;
 }
 
 .skills-container .grid-skills .php:hover {
@@ -293,11 +297,11 @@ hr {
 }
 
 .skills-container .grid-skills .r-project:hover {
-  background-color: #78ADDD;
+  background-color: #276DC3;
 }
 
 .skills-container .grid-skills .kubernetes:hover {
-  background-color: #3971E7;
+  background-color: #326CE5;
 }
 
 .skills-container .grid-skills .aws:hover {
@@ -305,15 +309,91 @@ hr {
 }
 
 .skills-container .grid-skills .docker:hover {
-  background-color: #3993B6;
+  background-color: #2496ED;
 }
 
 .skills-container .grid-skills .git:hover {
-  background-color: #EF5536;
+  background-color: #F05032;
 }
 
 .skills-container .grid-skills .linux:hover {
-  background-color: #F8C147;
+  background-color: #FCC624;
+}
+
+.skills-container .grid-skills .terraform:hover {
+  background-color: #844FBA;
+}
+
+.skills-container .grid-skills .spark:hover {
+  background-color: #E25A1C;
+}
+
+.skills-container .grid-skills .parquet:hover {
+  background-color: #50ABF1;
+}
+
+.skills-container .grid-skills .c:hover {
+  background-color: #00599C;
+}
+
+.skills-container .grid-skills .helm:hover {
+  background-color: #1720bc;
+}
+
+.skills-container .grid-skills .bash:hover {
+  background-color: #4EAA25;
+}
+
+.skills-container .grid-skills .next:hover {
+  background-color: #3E4348;
+}
+
+.skills-container .grid-skills .datadog:hover {
+  background-color: #632CA6;
+}
+
+.skills-container .grid-skills .postgres:hover {
+  background-color: #4169E1;
+}
+
+.skills-container .grid-skills .mysql:hover {
+  background-color: #4479A1;
+}
+
+.skills-container .grid-skills .sqlite:hover {
+  background-color: #003B57;
+}
+
+.skills-container .grid-skills .dynamodb:hover {
+  background-color: #4053D6;
+}
+
+.skills-container .grid-skills .elasticsearch:hover {
+  background-color: #005571;
+}
+
+.skills-container .grid-skills .fluentd:hover {
+  background-color: #0E83C8;
+}
+
+.skills-container .grid-skills .kibana:hover {
+  background-color: #005571;
+}
+
+.skills-container .grid-skills .rabbitmq:hover {
+  background-color: #FF6600;
+}
+
+.skills-container .grid-skills .ray:hover {
+  background-color: #028CF0;
+}
+
+.skills-container .grid-skills .airbyte:hover {
+  background-color: #615EFF;
+}
+
+.skills-container .grid-skills .firebase:hover {
+  background-color: #DD2C00;
 }
 
 /* Projects component styles */
