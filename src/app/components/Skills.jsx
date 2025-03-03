@@ -33,6 +33,10 @@ const Skills = () => {
                 <i className="fa-brands fa-java java-icon"></i>
                 <p>Java</p>
             </div>
+            <div className="skill-card golang">
+                <i className="fa-brands fa-golang golang-icon"></i>
+                <p>Go</p>
+            </div>
             <div className="skill-card c">
                 <Icon icon={cIcon} className="icon c-icon" />
                 <p>C</p>
@@ -85,10 +89,6 @@ const Skills = () => {
                 <Icon icon={terraformIcon} className="icon terraform-icon" />
                 <p>Terraform</p>
             </div>
-            <div className="skill-card datadog">
-                <Icon icon={datadogIcon} className="icon datadog-icon" />
-                <p>Datadog</p>
-            </div>
             <div className="skill-card postgres">
                 <Icon icon={postgresIcon} className="icon postgres-icon" />
                 <p>PostgreSQL</p>
@@ -109,6 +109,14 @@ const Skills = () => {
                 <Icon icon={firebaseIcon} className="icon firebase-icon" />
                 <p>Firebase</p>
             </div>
+            <div className="skill-card rabbitmq">
+                <Icon icon={rabbitmqIcon} className="icon rabbitmq-icon" />
+                <p>RabbitMQ</p>
+            </div>
+            <div className="skill-card datadog">
+                <Icon icon={datadogIcon} className="icon datadog-icon" />
+                <p>Datadog</p>
+            </div>
             <div className="skill-card elasticsearch">
                 <Icon icon={elasticsearchIcon} className="icon elasticsearch-icon" />
                 <p>Elasticsearch</p>
@@ -120,10 +128,6 @@ const Skills = () => {
             <div className="skill-card kibana">
                 <Icon icon={kibanaIcon} className="icon kibana-icon" />
                 <p>Kibana</p>
-            </div>
-            <div className="skill-card rabbitmq">
-                <Icon icon={rabbitmqIcon} className="icon rabbitmq-icon" />
-                <p>RabbitMQ</p>
             </div>
             <div className="skill-card spark">
                 <Icon icon={apacheSparkIcon} className="icon apache-spark-icon" />
