@@ -8,7 +8,7 @@ export const projectData = [
       'Built with Next.js, TypeScript, and Tailwind CSS, it features a smart search algorithm, intuitive pagination, type-based styling, and seamless API integration with PokeAPI for real-time data retrieval.',
     paragraphThree:
       'With a focus on user experience, it includes animations, tooltips, skeleton loaders, and dark mode support for an engaging and accessible interface.',
-    gitHubLink: 'https://github.com/The-Shy7/pokedex-nextjs-app',
+    gitHubLink: 'https://github.com/The-Shy7/nextdex',
   },
   {
     id: 2,
