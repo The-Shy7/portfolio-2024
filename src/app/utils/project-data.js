@@ -1,9 +1,20 @@
 export const projectData = [
   {
     id: 1,
+    title: 'Web Archiver',
+    paragraphOne:
+      'A full-stack web application that enables users to archive entire websites by crawling pages recursively and preserving HTML, CSS, JavaScript, and images.',
+    paragraphTwo:
+      'The Python backend provides a RESTful API for managing archives, tracking job progress, and retrieving stored content, while the React frontend offers an intuitive interface for browsing and searching snapshots.',
+    paragraphThree:
+      'It includes features like real-time progress tracking, cancellable jobs, and organized file-based storage.',
+    gitHubLink: 'https://github.com/The-Shy7/web-archiver',
+  },
+  {
+    id: 2,
     title: 'NextDex',
     paragraphOne:
-      'NextDex is a modern, responsive web application that serves as a comprehensive Pokémon encyclopedia, allowing users to browse, search, and explore detailed Pokémon data, including stats, abilities, and moves.',
+      'A modern, responsive web application that serves as a comprehensive Pokémon encyclopedia, allowing users to browse, search, and explore detailed Pokémon data, including stats, abilities, and moves.',
     paragraphTwo:
       'Built with Next.js, TypeScript, and Tailwind CSS, it features a smart search algorithm, intuitive pagination, type-based styling, and seamless API integration with PokeAPI for real-time data retrieval.',
     paragraphThree:
@@ -11,7 +22,7 @@ export const projectData = [
     gitHubLink: 'https://github.com/The-Shy7/nextdex',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Terraform AWS Networking Module',
     paragraphOne:
       'A Terraform module that simplifies the creation and management of VPCs and subnets within an AWS environment.',
@@ -22,7 +33,7 @@ export const projectData = [
     gitHubLink: 'https://github.com/The-Shy7/terraform-aws-networking-simple',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Terraform AWS Database Module',
     paragraphOne:
       'A Terraform module that simplifies the provisioning of Amazon RDS instances within a secure AWS environment.',
@@ -33,7 +44,7 @@ export const projectData = [
     gitHubLink: 'https://github.com/The-Shy7/terraform-aws-rds-instance-simple',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Miscarriage Statistical Analysis',
     paragraphOne:
       'A research project that focused on examining existing pregnancy data (primarily from the National Survey of Family Growth conducted by the National Center for Health Statistics) to predict a person\'s risk of miscarriage.',
@@ -44,7 +55,7 @@ export const projectData = [
     gitHubLink: 'https://github.com/The-Shy7/math-381-predicting-miscarriage',
   },
   {
-    id: 5,
+    id: 6,
     title: 'COVID-19 Mathematical Model Analysis',
     paragraphOne:
       'A research project focused on mathematically modeling (primarily through epidemiological compartmental models) the initial outbreak of COVID-19 within the population of Hubei Province in China.',
@@ -55,7 +66,7 @@ export const projectData = [
     gitHubLink: 'https://github.com/The-Shy7/modeling-covid-19',
   },
   {
-    id: 6,
+    id: 7,
     title: 'SmogonDex',
     paragraphOne:
       'A React-based Pokédex web app displaying Pokémon from Generations 1-7 using data from a RESTful API.',
@@ -66,7 +77,7 @@ export const projectData = [
     gitHubLink: 'https://github.com/The-Shy7/smogondb',
   },
   {
-    id: 7,
+    id: 8,
     title: 'Simple Text Editor',
     paragraphOne:
       'A minimal text editor built in C with no dependencies. It implements basic features expected in a text editor including syntax highlighting and search.',
@@ -77,7 +88,7 @@ export const projectData = [
     gitHubLink: 'https://github.com/The-Shy7/simple-text-editor',
   },
   {
-    id: 8,
+    id: 9,
     title: 'Developer Portfolio Website',
     paragraphOne:
       'My current developer portfolio built using Next.js and deployed through Vercel.',
@@ -88,7 +99,7 @@ export const projectData = [
     gitHubLink: 'https://github.com/The-Shy7/portfolio-2024',
   },
   {
-    id: 9,
+    id: 10,
     title: 'Chat App',
     paragraphOne:
       'A web app built using React and deployed through Firebase that allows users to communicate with others that are in the same chat room through text messages and pictures by using their cameras on browser and mobile.',
@@ -99,7 +110,7 @@ export const projectData = [
     gitHubLink: 'https://github.com/The-Shy7/scuffedchat',
   },
   {
-    id: 10,
+    id: 11,
     title: 'Discord Bot',
     paragraphOne:
       'A Discord bot built using Python through Repl.it that sends positive and encouraging messages. The bot responds to users with positive messages when it detects negative words',
