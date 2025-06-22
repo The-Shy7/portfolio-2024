@@ -23,6 +23,17 @@ export const projectData = [
   },
   {
     id: 3,
+    title: 'Hoop Detective',
+    paragraphOne:
+      'A fast-paced command-line guessing game that challenges users to identify a mystery NBA player within 8 attempts and a 6-minute time limit.',
+    paragraphTwo:
+      'It features real-time feedback, smart name matching, color-coded comparisons, a unique hint system, and flexible input handling with support for partial and case-insensitive name matching.',
+    paragraphThree:
+      'Player data is retrieved from the Ball Don’t Lie API, with a fallback to curated data for offline use.',
+    gitHubLink: 'https://github.com/The-Shy7/hoop-detective',
+  },
+  {
+    id: 4,
     title: 'Terraform AWS Networking Module',
     paragraphOne:
       'A Terraform module that simplifies the creation and management of VPCs and subnets within an AWS environment.',
@@ -33,7 +44,7 @@ export const projectData = [
     gitHubLink: 'https://github.com/The-Shy7/terraform-aws-networking-simple',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Terraform AWS Database Module',
     paragraphOne:
       'A Terraform module that simplifies the provisioning of Amazon RDS instances within a secure AWS environment.',
@@ -44,7 +55,7 @@ export const projectData = [
     gitHubLink: 'https://github.com/The-Shy7/terraform-aws-rds-instance-simple',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Miscarriage Statistical Analysis',
     paragraphOne:
       'A research project that focused on examining existing pregnancy data (primarily from the National Survey of Family Growth conducted by the National Center for Health Statistics) to predict a person\'s risk of miscarriage.',
@@ -55,7 +66,7 @@ export const projectData = [
     gitHubLink: 'https://github.com/The-Shy7/math-381-predicting-miscarriage',
   },
   {
-    id: 6,
+    id: 7,
     title: 'COVID-19 Mathematical Model Analysis',
     paragraphOne:
       'A research project focused on mathematically modeling (primarily through epidemiological compartmental models) the initial outbreak of COVID-19 within the population of Hubei Province in China.',
@@ -66,7 +77,7 @@ export const projectData = [
     gitHubLink: 'https://github.com/The-Shy7/modeling-covid-19',
   },
   {
-    id: 7,
+    id: 8,
     title: 'SmogonDex',
     paragraphOne:
       'A React-based Pokédex web app displaying Pokémon from Generations 1-7 using data from a RESTful API.',
@@ -77,7 +88,7 @@ export const projectData = [
     gitHubLink: 'https://github.com/The-Shy7/smogondb',
   },
   {
-    id: 8,
+    id: 9,
     title: 'Simple Text Editor',
     paragraphOne:
       'A minimal text editor built in C with no dependencies. It implements basic features expected in a text editor including syntax highlighting and search.',
@@ -88,7 +99,7 @@ export const projectData = [
     gitHubLink: 'https://github.com/The-Shy7/simple-text-editor',
   },
   {
-    id: 9,
+    id: 10,
     title: 'Developer Portfolio Website',
     paragraphOne:
       'My current developer portfolio built using Next.js and deployed through Vercel.',
@@ -99,7 +110,7 @@ export const projectData = [
     gitHubLink: 'https://github.com/The-Shy7/portfolio-2024',
   },
   {
-    id: 10,
+    id: 11,
     title: 'Chat App',
     paragraphOne:
       'A web app built using React and deployed through Firebase that allows users to communicate with others that are in the same chat room through text messages and pictures by using their cameras on browser and mobile.',
@@ -110,7 +121,7 @@ export const projectData = [
     gitHubLink: 'https://github.com/The-Shy7/scuffedchat',
   },
   {
-    id: 11,
+    id: 12,
     title: 'Discord Bot',
     paragraphOne:
       'A Discord bot built using Python through Repl.it that sends positive and encouraging messages. The bot responds to users with positive messages when it detects negative words',
