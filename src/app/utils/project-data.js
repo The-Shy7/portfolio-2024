@@ -29,7 +29,7 @@ export const projectData = [
     paragraphTwo:
       'It features real-time feedback, smart name matching, color-coded comparisons, a unique hint system, and flexible input handling with support for partial and case-insensitive name matching.',
     paragraphThree:
-      'Player data is retrieved from the Ball Don’t Lie API, with a fallback to curated data for offline use.',
+      'NBA player data is retrieved from the Ball Don’t Lie API, with a fallback to curated data for offline use.',
     gitHubLink: 'https://github.com/The-Shy7/hoop-detective',
   },
   {

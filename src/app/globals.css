@@ -415,6 +415,7 @@ hr {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
+  align-items: start;
 }
 
 @media screen and (max-width: 768px) {
@@ -427,6 +428,9 @@ hr {
   border: 1px solid #e6e6e6;
   padding: 20px;
   border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .project-card .project-header {

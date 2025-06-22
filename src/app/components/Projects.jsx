@@ -14,12 +14,24 @@ const Projects = () => {
                         </div>
                     </div>
                     <h3>{project.title}</h3>
-                    <p>{project.paragraphOne}</p>
-                    <br></br>
-                    <p>{project.paragraphTwo}</p>
-                    <br></br>
-                    <p>{project.paragraphThree}</p>
-                    <br></br>
+                    {project.paragraphOne && (
+                        <>
+                            <p>{project.paragraphOne}</p>
+                            <br />
+                        </>
+                    )}
+                    {project.paragraphTwo && (
+                        <>
+                            <p>{project.paragraphTwo}</p>
+                            <br />
+                        </>
+                    )}
+                    {project.paragraphThree && (
+                        <>
+                            <p>{project.paragraphThree}</p>
+                            <br />
+                        </>
+                    )}
                 </div>
             ))
             }
